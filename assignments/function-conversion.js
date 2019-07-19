@@ -11,10 +11,10 @@ let myFunction = () => {
 myFunction();
 
 //for my understanding
-//let anotherFunction = (param) => {
-//	console.log("unction is invoked");
-//};
-//anotherFunction();
+let anotherFunction = (param) => {
+	console.log("function is invoked");
+};
+anotherFunction();
 ////this will not work
 ////anotherFunction(param);
 //
@@ -50,4 +50,7 @@ myFunction();
 //// });
 //// console.log(triple);
 //
-module.exports = {myFunction};
+module.exports = {
+		myFunction,
+		anotherFunction,
+		};
