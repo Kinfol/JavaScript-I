@@ -1,0 +1,4 @@
+1. Create a function that console logs a message
+
+2. Test with Jest the message your function prints it is true. 
+Note: don't mock it, the message will be dinamically.
