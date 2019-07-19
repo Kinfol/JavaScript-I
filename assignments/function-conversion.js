@@ -15,13 +15,15 @@ let functionThatPrintsTheArrayOfMessages = () => {
 	for (let i in arrayOfMessages){
 	console.log(arrayOfMessages[i])
 	};
+	return arrayOfMessages;
 };
 functionThatPrintsTheArrayOfMessages(arrayOfMessages.push('hello', 'hi'));
 
+//function that prints a message to the console, the function is undifined and tested acordingly in contrast to the function above
 let anotherFunction = (param) => {
-	console.log("function is invoked");
-};
-anotherFunction();
+	return param
+}
+console.log(anotherFunction('hi you'))
 
 //testing functionThatPrintsToConsole with 2 Outputs
 let functionThatPrintsToConsole= (outputTextNumber1, outputTextNumber2) => {
@@ -34,19 +36,21 @@ let functionThatAddsAndPrintsToConsoleTheResult1 = (param1, param2) => {
 	return param1 + param2;
 };
 console.log(functionThatAddsAndPrintsToConsoleTheResult1(1,2)+ " function");
-//
-//
+
+
+//Another way of writing functionThatAddsAndPrintsToConsoleTheResult1
 //let functionThatAddsAndPrintsToConsoleTheResult = (param1, param2) => {
 //	console.log(param1 + param2);
 //	};
 //console.log(functionThatAddsAndPrintsToConsoleTheResult(1,2));
-//
-//let subtract = (param1, param2) => {
-//   return param1 - param2;
-//	};
-//console.log(substract(1,2));
-//
-//
+
+
+let functionThatSubstractsAndPrintsToConsoleTheResult= (param1, param2) => {
+   return param1 - param2;
+	};
+console.log(functionThatSubstractsAndPrintsToConsoleTheResult(1,2));
+
+
 //
 //// Stretch
 //
@@ -61,4 +65,5 @@ module.exports = {
 		anotherFunction,
 		functionThatPrintsToConsole,
 		functionThatAddsAndPrintsToConsoleTheResult1,
+		functionThatSubstractsAndPrintsToConsoleTheResult
 		};
