@@ -1,0 +1,11 @@
+{
+  "name": "boo",
+  "version": "1.0.0",
+  "description": "Test jest",
+  "main": "math.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Cr",
+  "license": "ISC"
+}

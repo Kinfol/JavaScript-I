@@ -1,0 +1,11 @@
+{
+  "name": "function-conversion-test",
+  "version": "1.0.0",
+  "description": "unit testing basic functions",
+  "main": "function-conversion.test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Cr",
+  "license": "ISC"
+}
